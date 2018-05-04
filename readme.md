@@ -32,7 +32,7 @@ You will then need to install SteamVR to pair the trackers with their wireless U
 
 The low-level driver can in theory bind to an arbitrary number of trackers, directly over USB or through a USB wireless adapter (also referred to as a Watchman dongle). To compile the driver you will need a few things:
 
-    sudo apt install build-essential libjson-c-dev zlib1g-dev libusb-1.0-0-dev git cmake
+    sudo apt install build-essential libjson-c-dev zlib1g-dev libusb-1.0-0-dev libargtable2-dev git cmake 
 
 Now checkout and build the code in a directory of your choice
 
